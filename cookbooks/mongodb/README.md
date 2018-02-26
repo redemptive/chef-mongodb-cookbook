@@ -24,4 +24,4 @@ A chef cookbook for installing mongodb on an ubuntu server
 
 ### Building an AMI
 
-Clone this repository then navigate to it's root in the terminal. Then run `berks vendor cookbooks` then `packer build packer.json` from the root of a cloned version of this repository to generate an AMI on AWS.
+Simply run `packer build packer.json` from the root of a cloned version of this repository
